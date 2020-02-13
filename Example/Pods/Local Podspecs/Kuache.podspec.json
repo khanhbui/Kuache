@@ -1,0 +1,22 @@
+{
+  "name": "Kuache",
+  "version": "0.1.0",
+  "summary": "A short description of Kuache.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pvn-khanh-bui/Kuache",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pvn-khanh-bui": "khanh.bui@punch.vn"
+  },
+  "source": {
+    "git": "https://github.com/pvn-khanh-bui/Kuache.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Kuache/Classes/**/*"
+}

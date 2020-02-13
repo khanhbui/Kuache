@@ -1,0 +1,6 @@
+framework module Kuache {
+  umbrella header "Kuache-umbrella.h"
+
+  export *
+  module * { export * }
+}

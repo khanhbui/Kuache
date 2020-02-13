@@ -1,0 +1,6 @@
+framework module Pods_Kuache_Tests {
+  umbrella header "Pods-Kuache_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
