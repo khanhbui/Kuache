@@ -14,6 +14,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		B23260C223DCF8FDB31B77B3 /* Pods_Kuache_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B34E9F7EF5BD3E9A3AD303 /* Pods_Kuache_Tests.framework */; };
+		CAA8F37723F555C8008037B0 /* UserCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA8F37623F555C8008037B0 /* UserCache.swift */; };
+		CAA8F37C23F556C6008037B0 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA8F37B23F556C6008037B0 /* UserEntity.swift */; };
 		D588F62384F8993C487E1D87 /* Pods_Kuache_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076A51CCD1EF42A6D12C5520 /* Pods_Kuache_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +48,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		AC0497150CF0BA12D4E4CC93 /* Pods-Kuache_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kuache_Example.release.xcconfig"; path = "Target Support Files/Pods-Kuache_Example/Pods-Kuache_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BF053EB1FA83F242EABAF1E2 /* Pods-Kuache_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kuache_Tests.release.xcconfig"; path = "Target Support Files/Pods-Kuache_Tests/Pods-Kuache_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CAA8F37623F555C8008037B0 /* UserCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCache.swift; sourceTree = "<group>"; };
+		CAA8F37B23F556C6008037B0 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
 		CB35102DAC251F87704F9E40 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +117,8 @@
 		607FACD21AFB9204008FA782 /* Example for Kuache */ = {
 			isa = PBXGroup;
 			children = (
+				CAA8F37A23F556AD008037B0 /* Entity */,
+				CAA8F37523F555C8008037B0 /* Cache */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -157,6 +163,22 @@
 				CB35102DAC251F87704F9E40 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		CAA8F37523F555C8008037B0 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				CAA8F37623F555C8008037B0 /* UserCache.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		CAA8F37A23F556AD008037B0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CAA8F37B23F556C6008037B0 /* UserEntity.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +249,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -356,7 +379,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				CAA8F37723F555C8008037B0 /* UserCache.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				CAA8F37C23F556C6008037B0 /* UserEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
